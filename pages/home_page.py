@@ -1,8 +1,8 @@
 from selenium.webdriver.common.by import By
-from PARTC.BRMC_Framework.pages.basepage import BasePage
+from pages.basepage import BasePage
 
 
-from PARTC.BRMC_Framework.pages.basepage import BasePage
+from pages.basepage import BasePage
 
 
 class HomePage(BasePage):
