@@ -6,7 +6,6 @@ pipeline {
         REPORTS_DIR  = 'reports'
         TEST_DIR     = 'tests'
         HTML_REPORT  = 'reports/test_report.html'
-        JUNIT_REPORT = 'reports/junit_report.xml'
     }
 
     options {
