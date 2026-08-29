@@ -1,3 +1,4 @@
+pipeline {
     agent any
 
     environment {
@@ -88,4 +89,4 @@
         failure  { echo ' Some tests failed. Check the HTML report.' }
         unstable { echo '  Build unstable — check results.' }
     }
-
+} 
