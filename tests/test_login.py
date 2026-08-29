@@ -1,7 +1,7 @@
 from time import sleep
 import pytest
 
-from PARTC.BRMC_Framework.pages.home_page import HomePage
+from pages.home_page import HomePage
 
 @pytest.mark.smoke
 def test_homepage(driver):
